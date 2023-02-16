@@ -4,7 +4,7 @@ const express = require("express")
 
 const router = express.Router()
 
-router.get("/api/v1/coordenadas",coordenadasServices.getAllCoordenadas)
-router.post("/api/v1/coordenadas",coordenadasServices.patchCoordenadas)
+router.get("/",coordenadasServices.getAllCoordenadas)
+router.post("/",coordenadasServices.postCoordenadas)
 
 module.exports = router
