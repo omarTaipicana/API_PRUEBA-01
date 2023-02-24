@@ -2,7 +2,7 @@ const { DataTypes } = require("sequelize")
 
 const db = require("../utils/database")
 
-const Coordenadas = db.define("coordenadas", {
+const Coordenadas = db.define ("coordenadas", {
     id: {
         type: DataTypes.INTEGER,
         autoIncrement: true,

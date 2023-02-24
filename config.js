@@ -22,23 +22,33 @@ const configs = {
         },
         production: {
             dialect: "postgres",
-            hostname: "dpg-cfn49mqrrk0eqlu79jt0-a",
+            hostname: "prueba01-db.internal",
             port: 5432,
-            username: "prueba_cfek_user",
-            password: "QZwZdKqRJ33997KbwG9eDiAisn5BqF2X",
-            database: "prueba_cfek",
+            username: "postgres",
+            password: "ug2OeUhDTS1jjiE",
+            database: "prueba01-db",
             define: {
                 timestamps: true,
                 underscored: true,
                 underscoredAll: true
             }
-            // ,
+            ,
             // dialectOptions: {
             //     ssl: {
             //         require: true,
             //         rejectUnauthorized: false
             //     }
             // }
+
+//             Postgres cluster prueba01-db created
+//   Username:    postgres
+//   Password:    ug2OeUhDTS1jjiE
+//   Hostname:    prueba01-db.internal
+//   Flycast:     fdaa:1:71e0:0:1::2
+//   Proxy port:  5432
+//   Postgres port:  5433
+//   Connection string: postgres://postgres:ug2OeUhDTS1jjiE@[fdaa:1:71e0:0:1::2]:5432
+
         }
 
     }
